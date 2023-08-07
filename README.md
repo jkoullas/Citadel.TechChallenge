@@ -16,9 +16,11 @@ The API receives the value and:
 
 
 # Developer Notes
+
 Open the solution in Visual Studio 2022.
 
 There are no external dependecies required to run the project locally.  Simply open the project and restore all Nuget packages.
+The API project uses an In-Memory database with Entity Framework.
 
 Set the following 2 projects to start up:
 - Citadel.API
@@ -31,6 +33,7 @@ The web project is a simple MVC project which uses:
 - bootstrap
   
 The following are notable Nuget packages are used in the API project.  
+- Entity Framework
 - Fluent Validation
 - Microsoft.Extentions.Logging
 - Microsoft.Extentions.Configuration
