@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <h1>Welcome to this Awesome application</h1>
+    <div class="row row-margin">
+        <div class="col">
+            Please enter your name
+        </div>
+    </div>
+    <div class="row row-margin">
+        <div class="col">
+            <input type="text" id="userDetails" class="form-control" />
+        </div>
+    </div>
+    <div class="row row-margin">
+        <div class="col">
+            <input type="button" id="submitButton" value="Submit" class="btn btn-primary" />
+        </div>
+    </div>
+    
+    <div class="row row-margin">
+        <div class="col">
+            <label id = "outputLabel" class="thank-you"></label>
+        </div>
+    </div>
+</div>
+

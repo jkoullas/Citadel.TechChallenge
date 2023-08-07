@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citadel.API", "Citadel.API\Citadel.API.csproj", "{B2237151-BABB-490A-A5A7-295DA46D245E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citadel.Core", "Citadel.Core\Citadel.Core.csproj", "{8D6BA4B2-779E-486F-88E0-FEE92C320D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citadel.Domain", "Citadel.Domain\Citadel.Domain.csproj", "{25E932D8-99A6-48B8-8B85-8FC66C52D1DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citadel.DataAccess", "Citadel.DataAccess\Citadel.DataAccess.csproj", "{1EBB770E-E5E1-4832-91A2-FA95F8604B3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citadel.Core.Tests", "Citadel.Core.Tests\Citadel.Core.Tests.csproj", "{33B7211B-7477-40F7-80EE-FE1014787D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citadel.API.Tests", "Citadel.API.Tests\Citadel.API.Tests.csproj", "{FA6B4C6D-5C19-4B12-8A1C-F155C6575A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citadel.Web", "Citadel.Web\Citadel.Web.csproj", "{E9EC76DD-2556-4C46-A315-23206333541B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2237151-BABB-490A-A5A7-295DA46D245E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2237151-BABB-490A-A5A7-295DA46D245E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2237151-BABB-490A-A5A7-295DA46D245E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2237151-BABB-490A-A5A7-295DA46D245E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6BA4B2-779E-486F-88E0-FEE92C320D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6BA4B2-779E-486F-88E0-FEE92C320D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6BA4B2-779E-486F-88E0-FEE92C320D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6BA4B2-779E-486F-88E0-FEE92C320D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E932D8-99A6-48B8-8B85-8FC66C52D1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E932D8-99A6-48B8-8B85-8FC66C52D1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E932D8-99A6-48B8-8B85-8FC66C52D1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E932D8-99A6-48B8-8B85-8FC66C52D1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBB770E-E5E1-4832-91A2-FA95F8604B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBB770E-E5E1-4832-91A2-FA95F8604B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBB770E-E5E1-4832-91A2-FA95F8604B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBB770E-E5E1-4832-91A2-FA95F8604B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B7211B-7477-40F7-80EE-FE1014787D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B7211B-7477-40F7-80EE-FE1014787D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B7211B-7477-40F7-80EE-FE1014787D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B7211B-7477-40F7-80EE-FE1014787D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6B4C6D-5C19-4B12-8A1C-F155C6575A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6B4C6D-5C19-4B12-8A1C-F155C6575A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6B4C6D-5C19-4B12-8A1C-F155C6575A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6B4C6D-5C19-4B12-8A1C-F155C6575A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EC76DD-2556-4C46-A315-23206333541B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EC76DD-2556-4C46-A315-23206333541B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EC76DD-2556-4C46-A315-23206333541B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EC76DD-2556-4C46-A315-23206333541B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27F7CCE0-E050-411E-BFF6-8EFE4D56AFAB}
+	EndGlobalSection
+EndGlobal
