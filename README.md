@@ -37,11 +37,11 @@ The following are notable Nuget packages are used in the API project.
 - xunit
 - Moq
 
-Note: The is also an ASP.NET web project.  It is a simple MVC project which can be used to test the API.
+Note: The solution also contains an ASP.NET web project.  It is a simple MVC project which can be used to test the API.
   
-#web
+# Web
 
-The front end is a React web application.  
+The front end is a React web application.  To run the application:
 
 - Ensure you have Node installed
 - Open the folder "citadel-react" in Visual Studio code
