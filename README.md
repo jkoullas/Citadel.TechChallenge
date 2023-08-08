@@ -17,21 +17,18 @@ The API receives the value and:
 
 # Developer Notes
 
+
+# API
 Open the solution in Visual Studio 2022.
 
 There are no external dependecies required to run the project locally.  Simply open the project and restore all Nuget packages.
 The API project uses an In-Memory database with Entity Framework.
 
-Set the following 2 projects to start up:
+Set the following project to start up:
 - Citadel.API
-- Citadel.Web
 
-Run the solution.  This will spawn 2 browser windows. One for the API Swagger documentation, and the other for the website
+Run the solution.  This will spawn a browser windows with the API Swagger documentation.
 
-The web project is a simple MVC project which uses:
-- jquery
-- bootstrap
-  
 The following are notable Nuget packages are used in the API project.  
 - Entity Framework
 - Fluent Validation
@@ -39,3 +36,16 @@ The following are notable Nuget packages are used in the API project.
 - Microsoft.Extentions.Configuration
 - xunit
 - Moq
+
+Note: The is also an ASP.NET web project.  It is a simple MVC project which can be used to test the API.
+  
+#web
+
+The front end is a React web application.  
+
+- Ensure you have Node installed
+- Open the folder "citadel-react" in Visual Studio code
+- Open a terminal window and browse to the web folder "citadel-react"
+- Ensure the API is running as per above
+- Run "npm start" and the website will launch at address http://localhost:3000/
+
